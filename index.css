@@ -63,7 +63,7 @@ body, html {
 }
 
 .logo-container img {
-    height: 200px;
+    height: 160px;
     width: auto;
 }
 
@@ -151,56 +151,98 @@ body, html {
     background-color: #003572;
 }
 
-.supportbutton {
-    width: 270px;
-    height: 120px;
-    font-size: 30px;
-    font-family: 'urbanist',arial;
-    font-weight: 800;
-    border: none;
-    border-radius: 30px;
-    background-color: #0085FF;
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+.social-button i {
+    vertical-align: middle;
 }
 
-.supportbutton:hover {
-    background-color: #005FCC;
+
+.header {
+    background: rgba(1, 13, 26);
+    border-radius: 20px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    width: 75vw;
+}
+
+.headerimage {
+    padding: 15px;
+    height: 45px;
+    float: left;
+    padding-left: 20px;
+}
+
+.header p {
+    font-family: 'urbanist',arial;
+    font-weight: 800;
+    font-size: 25px;
+    float: right;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header #about {
+    padding-right: 240px;
 }
 
 .social-buttons {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
+    position: fixed;
+    bottom: 20px; /* Adjust as needed */
+    left: 20px; /* Adjust as needed */
+    z-index: 10; /* Ensure it's above other elements */
+    display: flex; /* Align buttons vertically */
+    flex-direction: column; /* Align buttons vertically */
 }
 
 .social-button {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 100px;
-    margin-right: 10px;
+    width: 60px; /* Adjust button size as needed */
+    height: 60px; /* Adjust button size as needed */
+    margin-bottom: 10px; /* Spacing between buttons */
     border-radius: 50%;
-    background-color: rgba(30, 174, 254, 0.5);
-    color: white;
-    font-size: 40px;
+    background-color: rgba(30, 174, 254, 0);
+    color: rgb(255, 255, 255, 0.7);
+    font-size: 30px; /* Adjust font size as needed */
     transition: background-color 0.3s ease;
     text-decoration: none;
+    box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.15);
 }
 
+
 .social-button:hover {
-    background-color: rgba(30, 174, 254, 0.7);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 
 .social-button i {
     vertical-align: middle;
+}
+
+.buttonnav {
+    width: 200px;
+    height: 60px;
+    font-family: 'urbanist',arial;
+    font-weight: 800;
+    font-size: 25px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(0, 28, 58);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+}
+
+.buttonnav:hover {
+    background-color: #003572;
 }
 
 @media screen and (max-aspect-ratio: 9/10) {
@@ -259,71 +301,14 @@ body, html {
         font-size: 24px;
     }
 
-    .buttonnav  {
-        display: none;
+    .buttonnav {
+        width: 150px;
+        height: 60px;
+        font-size: 23px;
     }
 
-    .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        text-align: left;
+    .header #about {
+        padding-right: 180px;
+        font-size: 23px;
     }
-}
-
-.header {
-    background: rgba(1, 13, 26);
-    border-radius: 20px;
-    position: fixed;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 10;
-    width: 75vw;
-}
-
-.headerimage {
-    padding: 15px;
-    height: 45px;
-    float: left;
-    padding-left: 20px;
-}
-
-.header p {
-    font-family: 'urbanist',arial;
-    font-weight: 800;
-    font-size: 25px;
-    float: right;
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.header #links {
-    padding-right: 240px;
-}
-
-.header #latest {
-    padding-right: 30px;
-}
-
-.buttonnav {
-    width: 200px;
-    height: 60px;
-    font-family: 'urbanist',arial;
-    font-weight: 800;
-    font-size: 25px;
-    border: none;
-    border-radius: 15px;
-    background-color: rgb(0, 28, 58);
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 20px;
-}
-
-.buttonnav:hover {
-    background-color: #003572;
 }
