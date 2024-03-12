@@ -46,23 +46,33 @@ body, html {
     align-items: center; /* Center content vertically */
 }
 
-.footer {
+#section5 {
+    background: rgba(1, 13, 26, 0.973) url('assets/linesbackground.png');
+    display: flex; /* Add display flex to align items */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.footer, .footer2 {
     position: absolute;
     bottom: 0;
     width: 100%;
     font-family: 'urbanist', arial;
     align-items: center;
-    text-align: right;
-    font-weight: 500;
+    text-align: center;
+    font-weight: bold;
     font-size: 20px;
-    right: 20px;
     max-width: 50vw;
     color: #002044;
 }
 
-.footer a {
-    color: #003572;
+.footer2 {
     text-decoration: none;
+    padding-bottom: 60px;
+}
+
+.footer2 a {
+    color: #00244d;
 }
 
 .logo-container {
@@ -257,12 +267,14 @@ body, html {
     background-color: #003572;
 }
 
-.imagesmd #desktop {
+.imagesmd #desktop, .imagesmd2 #desktop {
     display: block;
+    width: 50vw;
 }
 
-.imagesmd #mobile {
+.imagesmd #mobile, .imagesmd2 #mobile {
     display: none;
+    width: 70vw;
 }
 
 @media screen and (max-aspect-ratio: 9/10) {
@@ -336,11 +348,11 @@ body, html {
         font-size: 23px;
     }
 
-    .imagesmd #desktop {
+    .imagesmd #desktop, .imagesmd2 #desktop {
         display: none;
     }
 
-    .imagesmd #mobile {
+    .imagesmd #mobile, .imagesmd2 #mobile {
         display: block;
     }
 }
