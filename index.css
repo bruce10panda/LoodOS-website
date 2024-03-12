@@ -62,13 +62,13 @@ body, html {
     text-align: right;
     font-weight: bold;
     font-size: 20px;
-    max-width: 95vw;
+    max-width: 50vw;
     color: #002044;
 }
 
 .footer2 {
     text-decoration: none;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
 }
 
 .footer2 a {
