@@ -59,16 +59,16 @@ body, html {
     width: 100%;
     font-family: 'urbanist', arial;
     align-items: center;
-    text-align: center;
+    text-align: right;
     font-weight: bold;
     font-size: 20px;
-    max-width: 50vw;
+    max-width: 95vw;
     color: #002044;
 }
 
 .footer2 {
     text-decoration: none;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 }
 
 .footer2 a {
