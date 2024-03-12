@@ -20,37 +20,37 @@ body, html {
 #section1 {
     height: 115vh;
     background: #010d1af8 url('assets/linesbackground.png');
-    display: flex; /* Add display flex to align items */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #section2 {
     background: #010d1af8 url('assets/linesbackground.png');
-    display: flex; /* Add display flex to align items */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #section3 {
-    background: rgba(1, 13, 26, 0.973) url('assets/linesbackground.png');
-    display: flex; /* Add display flex to align items */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
+    background: #010d1af8 url('assets/linesbackground.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #section4 {
-    background: rgba(1, 13, 26, 0.973) url('assets/linesbackground.png');
-    display: flex; /* Add display flex to align items */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
+    background: #010d1af8 url('assets/linesbackground.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #section5 {
-    background: rgba(1, 13, 26, 0.973) url('assets/linesbackground.png');
-    display: flex; /* Add display flex to align items */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
+    background: #010d1af8 url('assets/linesbackground.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer, .footer2 {
@@ -68,7 +68,7 @@ body, html {
 
 .footer2 {
     text-decoration: none;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 .footer2 a {
@@ -80,18 +80,16 @@ body, html {
     top: 15%;
     left: 50%;
     transform: translateX(-50%);
-    width: px;
-    height: auto;
 }
 
 .logo-container img {
-    height: 160px;
+    height: 17vh;
     width: auto;
 }
 
 .screenshot-container {
     position: absolute;
-    top: 60%;
+    top: 70vh;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
@@ -100,7 +98,7 @@ body, html {
 
 .phone-screenshot {
     width: auto;
-    height: 550px;
+    height: 500px;
     border-radius: 12px;
 }
 
@@ -212,24 +210,24 @@ body, html {
 
 .social-buttons {
     position: fixed;
-    bottom: 20px; /* Adjust as needed */
-    left: 10px; /* Adjust as needed */
-    z-index: 10; /* Ensure it's above other elements */
-    display: flex; /* Align buttons vertically */
-    flex-direction: column; /* Align buttons vertically */
+    bottom: 20px;
+    left: 10px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
 }
 
 .social-button {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 60px; /* Adjust button size as needed */
-    height: 60px; /* Adjust button size as needed */
-    margin-bottom: 10px; /* Spacing between buttons */
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
     border-radius: 50%;
     background-color: rgba(30, 174, 254, 0);
     color: rgb(255, 255, 255, 0.7);
-    font-size: 30px; /* Adjust font size as needed */
+    font-size: 30px;
     transition: background-color 0.3s ease;
     text-decoration: none;
     box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.15);
