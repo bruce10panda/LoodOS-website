@@ -20,18 +20,30 @@ body, html {
 #section1 {
     height: 115vh;
     background: #010d1af8 url('assets/linesbackground.png');
+    display: flex; /* Add display flex to align items */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
 }
 
 #section2 {
     background: #010d1af8 url('assets/linesbackground.png');
+    display: flex; /* Add display flex to align items */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
 }
 
 #section3 {
     background: rgba(1, 13, 26, 0.973) url('assets/linesbackground.png');
+    display: flex; /* Add display flex to align items */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
 }
 
 #section4 {
     background: rgba(1, 13, 26, 0.973) url('assets/linesbackground.png');
+    display: flex; /* Add display flex to align items */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
 }
 
 .footer {
@@ -79,7 +91,7 @@ body, html {
 .phone-screenshot {
     width: auto;
     height: 550px;
-    border-radius: 19px;
+    border-radius: 12px;
 }
 
 .section-title {
@@ -191,7 +203,7 @@ body, html {
 .social-buttons {
     position: fixed;
     bottom: 20px; /* Adjust as needed */
-    left: 20px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
     z-index: 10; /* Ensure it's above other elements */
     display: flex; /* Align buttons vertically */
     flex-direction: column; /* Align buttons vertically */
@@ -245,6 +257,14 @@ body, html {
     background-color: #003572;
 }
 
+.imagesmd #desktop {
+    display: block;
+}
+
+.imagesmd #mobile {
+    display: none;
+}
+
 @media screen and (max-aspect-ratio: 9/10) {
     #section1 {
         height: 100vh;
@@ -256,7 +276,7 @@ body, html {
     }
 
     .logo-container img {
-        width: 350px;
+        width: 320px;
         height: auto;
     }
 
@@ -292,7 +312,7 @@ body, html {
 
     .social-buttons {
         bottom: 10px;
-        left: 10px;
+        left: 5px;
     }
 
     .social-button {
@@ -314,5 +334,13 @@ body, html {
     .header #about {
         padding-right: 180px;
         font-size: 23px;
+    }
+
+    .imagesmd #desktop {
+        display: none;
+    }
+
+    .imagesmd #mobile {
+        display: block;
     }
 }
